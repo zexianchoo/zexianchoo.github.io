@@ -22,6 +22,18 @@
   animation-fill-mode: both;
 }
 
+.fading-down-slower {
+  animation: fade-down-slow 750ms ease 1 normal;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+.fading-right-slower {
+  animation: fade-right 750ms ease 1 normal;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
 .fading-left {
   animation: fade-left 0.5s;
 }

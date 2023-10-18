@@ -17,12 +17,17 @@ const Hero = () => {
           height={1200}
           className='rounded-full'
         />
-        <p className='relative max-sm:text-2xl text-3xl text-center font-montserrat text-dark-blue max-sm:py-2 min-sm:py-8 fading-down-slow'>
+        <div>
+        <p className='relative max-sm:text-2xl font-semibold first-line:text-3xl text-center font-montserrat text-dark-blue max-sm:py-2 min-sm:py-8 fading-down-slow'>
           Choo Ze Xian
         </p>
+        <p className='relative max-sm:text-2xl text-2xl text-center font-montserrat text-dark-blue max-sm:py-2 min-sm:py-8 fading-down-slow'>
+          Machine Learning | Computer Vision
+        </p>
+        </div>
         </div>
         <div className='relative sm:max-w-full'>
-            <p className='text-xl max-sm:text-md font-montserrat text-dark-blue sm:pl-36 fading-right-slower' >
+            <p className='text-[21px] font-light max-sm:text-md font-montserrat text-dark-blue sm:pl-36 fading-right-slower' >
             Hey! 👋 I'm a sophomore at the University of Illinois Urbana-Champaign studying Computer Science. I am a software developer interested in developing applications that use Artificial Intelligence, Machine Learning, and Computer Vision. I have experience working Torch, Tensorflow, OpenCV and React. I am passionate about developing solutions that provide business value, and am constantly looking for oppourtunities to improve my skills as a Software Engineer.
             </p>
         </div>

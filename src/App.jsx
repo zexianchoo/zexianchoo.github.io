@@ -1,7 +1,12 @@
-export default function App() {
+import { Nav } from "./components";
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+    <main className='relative'>
+      <Nav />
+
+    </main>
+  );
+};
+
+export default App;

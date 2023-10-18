@@ -15,7 +15,7 @@ const Nav = () => {
                 className='m-0 w-[50px] h-[50px] rounded-xl'
                 ></img>
             </a>
-            <ul className='flex justify-center items-center gap-10 max-lg:hidden'>
+            <ul className='flex justify-center items-center gap-10 max-md:flex max-md:text-left'>
                 {navLinks.map((item) => (
                     // className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
                     // ${

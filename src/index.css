@@ -12,6 +12,24 @@
   scroll-behavior: smooth;
 }
 
+.fading-down {
+  animation: fade-down 0.5s ease 1 normal;
+}
+
+.fading-down-slow {
+  animation: fade-down-slow 750ms ease 1 normal;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+
+.fading-left {
+  animation: fade-left 0.5s;
+}
+
+.fading-right {
+  animation: fade-left 0.5s;
+}
+
 @layer components {
   .max-container {
     max-width: 1440px;
@@ -54,5 +72,54 @@
 
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
+  }
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fade-down-slow {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+
+@keyframes fade-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px) scale(1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    opacity: 0;
+    transform: translateX(100px) scale(1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
   }
 }

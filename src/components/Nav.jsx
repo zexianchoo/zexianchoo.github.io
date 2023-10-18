@@ -1,21 +1,21 @@
 import { icon } from "../assets/images";
 import { navLinks } from "../constants";
-import Button from "./Button";
 
 const Nav = () => {
+
   return (
-    <header className='padding-x py-8 absolute z-10 w-full'>
-        <nav className='flex justify-between items-center max-container'>
+    <header className='md:padding-x py-8 m  md:absolute md:z-10 w-full border-solid border-b border-grey fading-down ' >
+        <nav className='md:flex md:justify-between items-center max-container '>
             <a href='/'> 
             <img
                 src={icon}
                 alt='logo'
                 width={50}
                 height={50}
-                className='m-0 w-[50px] h-[50px] rounded-xl'
-                ></img>
+                className='m-0 w-[55px] h-[55px] rounded-xl hidden md:block'
+                ></img> 
             </a>
-            <ul className='flex justify-center items-center gap-10 max-md:flex max-md:text-left'>
+            <ul className='md:flex sm:flex-wrap sm:justify-end gap-10 place-content-center'>
                 {navLinks.map((item) => (
                     <li key={item.label}>
                         <a

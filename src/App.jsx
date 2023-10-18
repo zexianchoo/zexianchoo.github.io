@@ -1,6 +1,7 @@
 import { Home, About, Contact, Projects, Timeline } from './pages'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Routes, Route } from "react-router-dom";
+
 
 const App = () => {
 

@@ -25,9 +25,11 @@ export default {
         'primary': "#ECEEFF",
         "coral-red": "#FF6452",
         "light-blue": "#A0D9ED",
+        "dark-blue": "#OA2472",
         "slate-gray": "#121212",
         "pale-blue": "#F5F6FF",
         "lime-green": "#32CD32",
+        "off-white": "#FAF9F6",
         "white-400": "rgba(255, 255, 255, 0.80)"
       },
       boxShadow: {

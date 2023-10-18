@@ -1,10 +1,13 @@
 import React from 'react'
-import { Nav } from "../components";
+import { Nav, Hero } from "../components";
 
 const Home = () => {
   return (
-    <main className='relative'>
+    <main className='relative w-full h-screen' >
       <Nav />
+      <section id='hero' className='padding'>
+        <Hero />
+      </section>
     </main>
   )
 }

@@ -3,7 +3,7 @@ import { Nav, Hero } from "../components";
 
 const Home = () => {
   return (
-    <main className='relative w-full h-screen' >
+    <main className='sm:relative w-full h-screen' >
       <Nav />
       <section id='hero' className='padding'>
         <Hero />

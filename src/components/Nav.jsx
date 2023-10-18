@@ -17,12 +17,6 @@ const Nav = () => {
             </a>
             <ul className='flex justify-center items-center gap-10 max-md:flex max-md:text-left'>
                 {navLinks.map((item) => (
-                    // className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
-                    // ${
-                    //   backgroundColor
-                    //     ? `${backgroundColor} ${textColor} ${borderColor}`
-                    //     : "bg-light-blue text-black border-light-blue"
-                    // } rounded-full ${fullWidth && "w-full"}`}
                     <li key={item.label}>
                         <a
                             href={item.href}

@@ -1,3 +1,5 @@
+import { Github, Mail, LinkedIn } from "../assets/icons"
+
 export const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
@@ -6,4 +8,8 @@ export const navLinks = [
     { href: "/contact", label: "Contact" }, 
 ];
 
-export const test = 'test'
+export const footer_icons = [
+    {src : Github, alt : "github-icon"},
+    {src : LinkedIn, alt : "linkedin-icon"},
+    {src : Mail, alt : "github-icon"}
+]

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav } from "../components";
+import { Nav, Footer } from "../components";
 import { AboutMe } from '../sections';
 
 
@@ -9,6 +9,9 @@ const about = () => {
       <Nav />
       <section id = 'about me' className=''>
         <AboutMe />
+      </section>
+      <section id='footer' className='pb-10 bg-slate-500'>
+        <Footer />
       </section>
     </main>
   )

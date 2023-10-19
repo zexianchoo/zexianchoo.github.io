@@ -4,15 +4,15 @@ import { navLinks } from "../constants";
 const Nav = () => {
 
   return (
-    <nav className='sm:flex justify-between items-center sm:padding-x py-8 border-solid border-b border-grey fading-down'>
-        <div className="sm:relative">
+    <nav className='sm:flex justify-between items-center sm:padding-x my-8 border-solid border-b border-grey fading-down'>
+        <div className="items-center">
             <a href='/'> 
                 <img
                     src={icon}
                     alt='logo'
                     width={50}
                     height={50}
-                    className='w-[55px] h-[55px] rounded-xl hidden md:block'
+                    className='w-[55px] h-[55px] rounded-xl hidden md:block mb-4'
                     ></img> 
                 </a>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react'
-import { Nav, Hero } from "../components";
+import { Nav } from "../components";
+import { Hero } from "../sections";
 
 const Home = () => {
   return (

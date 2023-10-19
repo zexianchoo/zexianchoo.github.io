@@ -41,11 +41,16 @@ const Hero = () => {
                 💻 Computer Vision Researcher @ Promoting Undergraduate Research Engineering (PURE)
               </p>
               <p className='' >
-                🏘️ Sigma Phi Delta
-              </p>
-              <p className='' >
                 👨‍🏫 Course Assistant for CS 222
               </p>
+              <p className='' >
+                🏘️ Sigma Phi Delta
+              </p>
+
+              <p className='' >
+                🥏 Ultimate Frisbee
+              </p>
+              
               <p className='' >
                 ... and loves ☕
               </p>

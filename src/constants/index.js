@@ -22,7 +22,7 @@ using Stable Diffusion and 3D Gaussian Splatting.\
  This means optimizing the models for generating a seamless, spherical 3D image.'
 
  export const PURE_data = [ 
-    {img_class: spherical_world, title: "Spherical World Generation", text: PURE_text, read_more_href: "/"} 
+    {img_class: spherical_world, title: "Spherical World Generation", text: PURE_text, read_more_href: "/spherical"} 
 ]
 
 export const deepfake_text = 'I managed to achieved ~95% AUC on an ensemble Deepfake Detection model, \
@@ -31,7 +31,7 @@ improving on state-of-the-art models with innovative use of video quality data a
   and also published a open source Github repo with a multiprocessing video frame extractor.'
 
  export const Deepfake_data = [ 
-    {img_class: obama_fake, title: "Deepfake Detection", text: deepfake_text, read_more_href: "/"} 
+    {img_class: obama_fake, title: "Deepfake Detection", text: deepfake_text, read_more_href: "/deepfake"} 
 ]
 
 export const BBDC_text = 'I created an open source Github Repo with an automated Robotic Process\
@@ -40,5 +40,5 @@ export const BBDC_text = 'I created an open source Github Repo with an automated
   to provide updates to the user.'
 
  export const BBDC_data = [ 
-    {img_class: driving_test, title: "Automated Driving Lesson Booking Bot", text: BBDC_text, read_more_href: "/"} 
+    {img_class: driving_test, title: "Automated Driving Lesson Booking Bot", text: BBDC_text, read_more_href: "/booking-bot"} 
 ]

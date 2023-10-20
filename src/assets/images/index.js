@@ -4,6 +4,7 @@ import cookies from './cookies.png'
 import brownies from './brownies.png'
 import frisbee from './frisbee.png'
 import spherical_world from './spherical_world.png'
+import obama_fake from './obama_fake.png'
 
 export {
     icon,
@@ -11,5 +12,6 @@ export {
     cookies,
     brownies,
     frisbee,
-    spherical_world
+    spherical_world,
+    obama_fake
 }

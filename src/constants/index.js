@@ -1,5 +1,5 @@
 import { Github, Mail, LinkedIn } from "../assets/icons"
-import { spherical_world } from '../assets/images'
+import { spherical_world, obama_fake } from '../assets/images'
 
 export const navLinks = [
     { href: "/", label: "Home" },
@@ -29,5 +29,5 @@ export const PURE_data = [
 ]
 
 export const Deepfake_data = [ 
-    {img_class: spherical_world, title: "Deepfake Detection", text: deepfake_text, read_more_href: "/"} 
+    {img_class: obama_fake, title: "Deepfake Detection", text: deepfake_text, read_more_href: "/"} 
 ]

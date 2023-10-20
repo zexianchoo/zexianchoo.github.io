@@ -23,7 +23,7 @@ return (
         <div className='grow-0 sm:w-4/5 flex flex-col'>
             <div className='flex flex-col'>
             <p className='info-text '>
-            I created an open source <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" 
+            I created an open source <a target="_blank" rel="noopener noreferrer" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" 
             href="https://github.com/zexianchoo/BBDC-PRACTICAL-BOOKING-BOT">
                 Github Repo
             </a>              with an automated Robotic Process

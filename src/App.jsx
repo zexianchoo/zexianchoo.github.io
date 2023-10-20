@@ -18,8 +18,6 @@ const App = () => {
       <Route path="spherical" element={<SphericalReadMore />} />
       <Route path="deepfake" element={<DeepFakeReadMore />} />
       <Route path="booking-bot" element={<BBDCReadMore />} />
-      {/* <Route path="about" element={<About />} /> */}
-      {/* <Route path="*" element={<Errors />} /> */}
     </Routes>
   </div>
 

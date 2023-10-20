@@ -1,4 +1,4 @@
-import { icon } from "../assets/images";
+import { CoffeeCup } from "../assets/icons";
 import { navLinks } from "../constants";
 
 const Nav = () => {
@@ -8,7 +8,7 @@ const Nav = () => {
         <div className="items-center">
             <a href='/'> 
                 <img
-                    src={icon}
+                    src={CoffeeCup}
                     alt='logo'
                     width={50}
                     height={50}

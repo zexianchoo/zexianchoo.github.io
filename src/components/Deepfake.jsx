@@ -26,7 +26,7 @@ return (
             I managed to achieved ~95% AUC on an ensemble Deepfake Detection model, 
 improving on state-of-the-art models with innovative use of video quality data as input. During 
  this project I worked with Vision Transformers and multimodal data models. I designed a UI for the detector,
-  and also published a open source <a href="https://github.com/zexianchoo/Multiprocessing-Video-Frame-Extraction" 
+  and also published a open source <a target="_blank" rel="noopener noreferrer" href="https://github.com/zexianchoo/Multiprocessing-Video-Frame-Extraction" 
   className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">
     Github repo</a> with a multiprocessing video frame extractor.
             </p>

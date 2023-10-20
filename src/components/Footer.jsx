@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="mt-5 flex content-center max-container sm:relative justify-center">
             <ul className='mt-5 flex flex-wrap items-center justify-center sm:gap-10'>
                 {footer_icons.map((item) => (
-                    <li key={item.label}>
-                        <a href = '/'>
+                    <li key={ item.label }>
+                        <a href = { item.href }>
                             <img
                                 src={ item.src }
                                 alt="test"
@@ -23,7 +23,7 @@ const Footer = () => {
             </ul>
         </div>
         <div className='items-end'>
-            <p className=' font-montserrat leading-none text-lg text-slate-50'>Created by Ze Xian Choo</p>
+            <p className=' font-montserrat leading-none text-sm text-slate-50'>Created by Ze Xian Choo</p>
         </div>
     </section>
 

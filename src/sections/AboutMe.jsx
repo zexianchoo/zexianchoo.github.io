@@ -6,7 +6,7 @@ const AboutMe = () => {
           id='about'
           className='relative max-sm:pt-8 sm:flex flex-col max-container px-8  min-h-full '
         >
-            <section className='max-container max-sm:text-lg max-md:xl md:text-2xl fading-down-slow'>
+            <section className='max-container max-sm:text-lg max-md:xl md:text-2xl fading-down-fast'>
                 <h1 className='font-palanquin text-center text-4xl font-bold sm:pt-16 pt-8'> 
                     About Me!
                 </h1>
@@ -35,7 +35,7 @@ const AboutMe = () => {
             </section>
             
             <section className=''>
-                <div className='flex flex-wrap justify-between max-w-full items-center padding-b space-y-2 fading-right-slower' >
+                <div className='flex flex-wrap justify-between max-w-full items-center padding-b space-y-2 fading-right-delayed' >
                     <img
                         src={ cookies }
                         alt='cookies'

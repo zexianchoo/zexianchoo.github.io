@@ -13,24 +13,42 @@
 }
 
 .fading-down {
-  animation: fade-down 0.5s ease 1 normal;
+  animation: fade-down 1s ease 1 normal;
 }
 
 .fading-down-slow {
-  animation: fade-down-slow 750ms ease 1 normal;
+  animation: fade-down-slow 750ms ease 750ms normal;
   animation-delay: 0.5s;
   animation-fill-mode: both;
 }
 
 .fading-down-slower {
-  animation: fade-down-slow 750ms ease 1 normal;
+  animation: fade-down-slow 750ms ease 750ms normal;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+.fading-right-delayed {
+  animation: fade-right 750ms ease 750ms normal;
   animation-delay: 1s;
   animation-fill-mode: both;
 }
 
 .fading-right-slower {
-  animation: fade-right 750ms ease 1 normal;
-  animation-delay: 1s;
+  animation: fade-right 1.2s ease 1.2s normal;
+  animation-delay: 1.2s;
+  animation-fill-mode: both;
+}
+
+.fading-right-fast {
+  animation: fade-right 0.5s ease 0.5s normal;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+
+.fading-down-fast {
+  animation: fade-down 0.5s ease 0.5s normal;
+  animation-delay: 0.5s;
   animation-fill-mode: both;
 }
 
@@ -83,11 +101,11 @@
   }
 
   .info-text {
-    @apply font-palanquin text-slate-gray text-lg leading-7 font-light;
+    @apply font-palanquin text-slate-gray sm:text-2xl max-sm:text-sm leading-loose font-light;
   }
 
   .heading-text{
-    @apply font-montserrat text-slate-gray text-4xl leading-7;
+    @apply font-montserrat text-slate-gray max-sm:text-lg sm:text-4xl leading-7;
   }
 
   .card{

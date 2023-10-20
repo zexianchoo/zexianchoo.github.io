@@ -4,9 +4,9 @@ import Github from '../assets/icons/github.svg'
 
 const Footer = () => {
   return (
-    <section className='max-container'>
-        <div className="mt-5 flex content-center max-container sm:relative justify-center">
-            <ul className='mt-5 flex flex-wrap items-center justify-center sm:gap-10'>
+    <section className='sm:pb-6 max-sm:pb-2 bg-slate-500'>
+        <div className="mt-3 flex content-center max-container sm:relative justify-center">
+            <ul className='mt-3 flex flex-wrap items-center justify-center sm:gap-12 max-sm:gap-3'>
                 {footer_icons.map((item) => (
                     <li key={ item.label }>
                         <a href = { item.href }>
@@ -23,7 +23,7 @@ const Footer = () => {
             </ul>
         </div>
         <div className='items-end'>
-            <p className=' font-montserrat leading-none text-sm text-slate-50'>Created by Ze Xian Choo</p>
+            <p className='max-container font-montserrat leading-none sm:text-sm hidden sm:block text-slate-50'>Created by Ze Xian Choo</p>
         </div>
     </section>
 

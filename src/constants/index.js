@@ -13,3 +13,8 @@ export const footer_icons = [
     {src : LinkedIn, alt : "linkedin-icon", href: "https://www.linkedin.com/in/zexianchoo/"},
     {src : Mail, alt : "github-icon", href: "mailto:zxchoo2@illinois.edu"}
 ]
+
+export const PURE_text = 'Working with a team to investigate real-time rendering of a spherical 3D world \
+using Stable Diffusion and 3D Gaussian Splatting.\
+ My portion includes understanding, training and tweaking Stable Diffusion models in a spherical context. \
+ This means optimizing the models for generating a seamless, spherical 3D image.'

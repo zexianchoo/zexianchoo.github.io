@@ -4,12 +4,12 @@ import { Project } from '../sections'
 
 const Projects = () => {
   return (
-    <main className='sm:relative w-full h-screen' >
+    <main className='sm:relative w-full h-screen flex flex-col justify-between' >
       <Nav />
-      <section id ='projects' className='mt-20'>
+      <section id ='projects' className='mt-20' >
         <Project />
       </section>
-      <section id='footer' className='pb-10 bg-slate-500'>
+      <section id='footer' className=''>
         <Footer />
       </section>
     </main>

@@ -1,23 +1,37 @@
 import React from 'react'
 import { spherical_world } from '../assets/images'
+import { PURE_text } from '../constants'
+import { Button } from '../components'
 
 const PURE_project = () => {
   return (
-    <section className='flex flex-col items-center card'>
-    <div id = "PURE Project" className='flex flex-col space-y-10'>
-      <h1 className='heading-text'>
+    <section className='flex flex-col items-center card '>
+      <h1 className='heading-text mb-5'>
         <span className='text-coral-red font-semibold'> Current: </span> Spherical World Generation
       </h1>
-      <div className='flex space-x-10'>
-        <img 
-            src = { spherical_world } 
-            width = {200} 
-            height={200} 
-            className='rounded-lg' >
-        </img>
-        <p className='info-text'>
-            Test
-        </p>
+
+    <div id = "PURE Project" className='flex min-w-full flex-col justify-between space-y-10 px-8'>
+      <div className='flex sm:flex-row max-sm:flex-col items-center space-x-10'>
+        <div className='flex object-scale-down items-center justify-center'>
+          <img 
+              src = { spherical_world } 
+              className='w-4/5 rounded-lg drop-shadow-lg max-sm:w-2/5' >
+          </img>
+        </div>
+        <div className='grow-0 w-4/5 flex flex-col'>
+          <div className='flex flex-col'>
+            <p className='info-text '>
+              { PURE_text }
+            </p>
+
+            <div className="flex justify-end items-center ">
+              <a href='/' className='pr-4'>
+                <Button  label="Read More" >  </Button>
+              </a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>

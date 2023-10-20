@@ -7,10 +7,10 @@ const Project = () => {
       id='project'
       className=' max-container min-h-full flex flex-col '
     >
-    <h1 className='heading-text text-center font-semibold'>
-      Here's some of the projects I've worked on:
+    <h1 className='heading-text text-center font-semibold fading-right-fast'>
+      Here's some projects I've worked on ✌️:
     </h1>
-    <section className='padding'>
+    <section className='padding fading-down-slower'>
       <PURE_project />
     </section>
 

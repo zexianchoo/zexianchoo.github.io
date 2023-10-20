@@ -5,14 +5,16 @@ import { AboutMe } from '../sections';
 
 const about = () => {
   return (
-    <main className='sm:relative w-full h-screen' >
+    <main className='sm:relative flex flex-col w-full h-screen' >
       <Nav />
+      <div className='mb-auto'>
       <section id = 'about me' className=''>
         <AboutMe />
       </section>
-      <section id='footer' className='pb-10 bg-slate-500'>
+      </div>
+      <footer id='footer' className='pb-10 bg-slate-500'>
         <Footer />
-      </section>
+      </footer>
     </main>
   )
 }

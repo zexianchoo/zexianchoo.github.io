@@ -1,11 +1,11 @@
 import { Github, Mail, LinkedIn } from "../assets/icons"
-import { spherical_world, obama_fake } from '../assets/images'
+import { spherical_world, obama_fake, driving_test } from '../assets/images'
 
 export const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
-    { href: "/timeline", label: "Timeline" },
     { href: "/projects", label: "Projects" },
+    { href: "/timeline", label: "Timeline" },
     { href: "/contact", label: "Contact" }, 
 ];
 
@@ -15,19 +15,30 @@ export const footer_icons = [
     {src : Mail, alt : "github-icon", href: "mailto:zxchoo2@illinois.edu"}
 ]
 
+
 export const PURE_text = 'Working with a team to investigate real-time rendering of a spherical 3D world \
 using Stable Diffusion and 3D Gaussian Splatting.\
  My portion includes understanding, training and tweaking Stable Diffusion models in a spherical context. \
  This means optimizing the models for generating a seamless, spherical 3D image.'
 
-export const deepfake_text = 'Achieved ~95% AUC on Deepfake Detection with transfer learning \
-to implement an ensemble Deepfake Detection model. I improved on state-of-the-art models through innovative\
-use of video quality data and worked with Vision Transformers and multimodal data to improve accuracy'
-
-export const PURE_data = [ 
+ export const PURE_data = [ 
     {img_class: spherical_world, title: "Spherical World Generation", text: PURE_text, read_more_href: "/"} 
 ]
 
-export const Deepfake_data = [ 
+export const deepfake_text = 'I managed to achieved ~95% AUC on an ensemble Deepfake Detection model, \
+improving on state-of-the-art models with innovative use of video quality data as input. During \
+ this project I worked with Vision Transformers and multimodal data models. I designed a UI for the detector,\
+  and also published a open source Github repo with a multiprocessing video frame extractor.'
+
+ export const Deepfake_data = [ 
     {img_class: obama_fake, title: "Deepfake Detection", text: deepfake_text, read_more_href: "/"} 
+]
+
+export const BBDC_text = 'I created an open source Github Repo with an automated Robotic Process\
+ Automation bot, which automatically visits and books classes on the driving center\'s website \
+ to book driving lessons, using Selenium. The bot was connected with Telegram through Heroku and Flask\
+  to provide updates to the user.'
+
+ export const BBDC_data = [ 
+    {img_class: driving_test, title: "Automated Driving Lesson Booking Bot", text: BBDC_text, read_more_href: "/"} 
 ]

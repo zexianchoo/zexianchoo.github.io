@@ -15,10 +15,10 @@ return (
 
     <div className='flex min-w-full flex-col justify-between space-y-10 px-8'>
         <div className='flex sm:flex-row max-sm:flex-col items-center space-x-10'>
-        <div className='flex object-scale-down items-center justify-center max-sm:py-2'>
+        <div className='max-w-[20%] flex object-scale-down items-center sm:justify-start max-sm:justify-center max-sm:py-2'>
             <img 
                 src = { img_class } 
-                className='w-4/5 rounded-lg drop-shadow-lg max-sm:w-2/5' >
+                className='rounded-lg drop-shadow-lg' >
             </img>
         </div>
         <div className='grow-0 sm:w-4/5 flex flex-col'>

@@ -3,10 +3,19 @@ import { Nav, Footer } from '../components'
 
 const Contact = () => {
   return (
-    <main className='sm:relative w-full h-screen' >
+    <main className='w-full h-screen' >
       <Nav />
-      <section id='footer' className='pb-10 bg-slate-500'>
-        <Footer />
+      <section className='flex flex-col min-h-full justify-between'>
+        <div>
+          <div className='text-center h-screen mb-auto'>
+            <h1 className='heading-text'> Under Construction
+              </h1>
+          </div>
+        </div>
+          <div id='footer' className='my-auto pb-10 bg-slate-500'>
+            <Footer />
+          </div>
+
       </section>
     </main>
   )

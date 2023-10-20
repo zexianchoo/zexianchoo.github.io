@@ -1,6 +1,6 @@
 import React from 'react'
 import { CurrentCard, Card } from "../components"
-import { PURE_data, Deepfake_data } from '../constants'
+import { PURE_data, Deepfake_data, BBDC_data } from '../constants'
 
 const Project = () => {
   return (
@@ -36,6 +36,20 @@ const Project = () => {
       ))}
       </ul>
     </section>
+
+    <section className='fading-down-slower card-padding'>
+    <ul>
+        {BBDC_data.map((item) => (
+        <li>
+          <Card img_class = {item.img_class}
+          title={item.title}
+          text={item.text}
+          read_more_href={item.read_more_href}/>
+        </li> 
+      ))}
+      </ul>
+    </section>
+
     </main>
   )
 }

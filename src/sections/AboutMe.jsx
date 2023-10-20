@@ -7,7 +7,7 @@ const AboutMe = () => {
           className='relative max-sm:pt-8 sm:flex flex-col max-container px-8  min-h-full '
         >
             <section className='max-container max-sm:text-lg max-md:xl md:text-2xl fading-down-slow'>
-                <h1 className='font-palanquin text-center text-4xl font-bold padding-t'> 
+                <h1 className='font-palanquin text-center text-4xl font-bold sm:pt-16 pt-8'> 
                     About Me!
                 </h1>
 

@@ -83,7 +83,15 @@
   }
 
   .info-text {
-    @apply font-montserrat text-slate-gray text-lg leading-7;
+    @apply font-palanquin text-slate-gray text-lg leading-7 font-light;
+  }
+
+  .heading-text{
+    @apply font-montserrat text-slate-gray text-4xl leading-7;
+  }
+
+  .card{
+    @apply shadow-xl py-10 border-2 
   }
 }
 

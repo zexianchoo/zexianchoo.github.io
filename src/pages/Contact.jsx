@@ -1,8 +1,14 @@
 import React from 'react'
+import { Nav, Footer } from '../components'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <main className='sm:relative w-full h-screen' >
+      <Nav />
+      <section id='footer' className='pb-10 bg-slate-500'>
+        <Footer />
+      </section>
+    </main>
   )
 }
 

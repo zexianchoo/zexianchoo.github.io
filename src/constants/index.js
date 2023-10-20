@@ -20,11 +20,14 @@ using Stable Diffusion and 3D Gaussian Splatting.\
  My portion includes understanding, training and tweaking Stable Diffusion models in a spherical context. \
  This means optimizing the models for generating a seamless, spherical 3D image.'
 
-export const deepfake_text = 'Working with a team to investigate real-time rendering of a spherical 3D world \
-using Stable Diffusion and 3D Gaussian Splatting.\
- My portion includes understanding, training and tweaking Stable Diffusion models in a spherical context. \
- This means optimizing the models for generating a seamless, spherical 3D image.'
+export const deepfake_text = 'Achieved ~95% AUC on Deepfake Detection with transfer learning \
+to implement an ensemble Deepfake Detection model. I improved on state-of-the-art models through innovative\
+use of video quality data and worked with Vision Transformers and multimodal data to improve accuracy'
 
 export const PURE_data = [ 
     {img_class: spherical_world, title: "Spherical World Generation", text: PURE_text, read_more_href: "/"} 
+]
+
+export const Deepfake_data = [ 
+    {img_class: spherical_world, title: "Deepfake Detection", text: deepfake_text, read_more_href: "/"} 
 ]

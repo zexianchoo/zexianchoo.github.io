@@ -1,4 +1,3 @@
-import { spherical_world } from "../assets/images";
 import { Button } from "."
 
 const Card = ({
@@ -11,7 +10,7 @@ const Card = ({
 return (
     <section className='flex flex-col items-center card '>
         <h1 className='heading-text mb-5 text-center'>
-        <span className='text-coral-red font-semibold'> Current: </span> {title}
+        {title}
         </h1>
 
     <div className='flex min-w-full flex-col justify-between space-y-10 px-8'>
@@ -22,7 +21,7 @@ return (
                 className='w-4/5 rounded-lg drop-shadow-lg max-sm:w-2/5' >
             </img>
         </div>
-        <div className='grow-0 w-4/5 flex flex-col'>
+        <div className='grow-0 sm:w-4/5 flex flex-col'>
             <div className='flex flex-col'>
             <p className='info-text '>
                 {text}
@@ -30,7 +29,7 @@ return (
 
             <div className="flex justify-end items-center ">
                 
-                <a href={read_more_href} className='pr-4'>
+                <a href={read_more_href} className='pr-4 py-4'>
                 <Button  label="Read More" >  </Button>
                 </a>
             </div>

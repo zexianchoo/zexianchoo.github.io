@@ -1,8 +1,6 @@
 import React from 'react'
-import { PURE_project } from "../components"
-import { Deepfake_Detection } from '../components'
-import { PURE_data } from '../constants'
-import { Card } from '../components'
+import { CurrentCard, Card } from "../components"
+import { PURE_data, Deepfake_data } from '../constants'
 
 const Project = () => {
   return (
@@ -17,17 +15,26 @@ const Project = () => {
     <ul>
         {PURE_data.map((item) => (
         <li>
+          <CurrentCard img_class = {item.img_class}
+          title={item.title}
+          text={item.text}
+          read_more_href={item.read_more_href}/>
+        </li> 
+      ))}
+      </ul>
+
+    </section>
+    <section className='fading-down-slower card-padding'>
+    <ul>
+        {Deepfake_data.map((item) => (
+        <li>
           <Card img_class = {item.img_class}
           title={item.title}
           text={item.text}
           read_more_href={item.read_more_href}/>
-        </li>
+        </li> 
       ))}
       </ul>
-      <PURE_project />
-    </section>
-    <section className='fading-down-slower card-padding'>
-      <Deepfake_Detection />
     </section>
     </main>
   )

@@ -77,7 +77,7 @@
   }
 
   .card-padding {
-    @apply sm:py-16 py-8;
+    @apply max-container w-4/5 sm:py-8 py-2;
   }
 
   .padding-x {

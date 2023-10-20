@@ -76,6 +76,10 @@
     @apply sm:px-16 px-8 sm:py-24 py-12;
   }
 
+  .card-padding {
+    @apply sm:py-16 py-8;
+  }
+
   .padding-x {
     @apply sm:px-16 px-8;
   }

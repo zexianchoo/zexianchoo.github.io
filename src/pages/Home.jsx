@@ -7,7 +7,7 @@ const Home = () => {
     <main className='flex flex-col min-h-screen w-full ' >
         <Nav />
       <div className='flex-1'>
-        <section id='hero' className='padding'>
+        <section id='hero' className='mb-auto padding'>
           <Hero />
         </section>
       </div>

@@ -11,11 +11,10 @@ const AboutMe = () => {
                     About Me!
                 </h1>
 
-                <div className='py-20 space-y-10'>
+                <div className='py-20 space-y-12'>
                     <p className='font-montserrat text-dark-blue max-sm:py-2 min-sm:py-8'>
                     I am passionate about developing applications
-                    I have experience working with 2 main focuses: Deep Learning and Web Development:
-                    that use AI/ML, especially Computer Vision.  
+                    I have experience working with 2 main focuses: Deep Learning and Web Development:  
                     </p>
 
                     <p className='font-montserrat text-dark-blue max-sm:py-2 min-sm:py-8'>

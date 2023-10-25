@@ -42,3 +42,5 @@ export const BBDC_text = 'I created an open source Github Repo with an automated
  export const BBDC_data = [ 
     {img_class: driving_test, title: "Automated Driving Lesson Booking Bot", text: BBDC_text, read_more_href: "/booking-bot"} 
 ]
+
+export const spherical_page_text = ''

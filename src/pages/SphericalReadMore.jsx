@@ -1,20 +1,18 @@
 import React from 'react'
 import { Nav, Footer } from '../components'
+import { SphericalWorld } from '../sections'
 
 const SphericalReadMore = () => {
   return (
-    <main className='w-full h-screen' >
+    <main className='flex flex-col w-full h-screen' >
       <Nav />
-      <section className='flex flex-col min-h-full justify-between'>
+      <section className='mb-auto padding-x'>
         <div>
-          <div className='text-center h-screen mb-auto'>
-            <h1 className='heading-text'> Under Construction
-              </h1>
-          </div>
+          <SphericalWorld />
         </div>
-          <div id='footer' className='my-auto pb-10 bg-slate-500'>
-            <Footer />
-          </div>
+        <div id='footer' className=''>
+          <Footer />
+        </div>
 
       </section>
     </main>

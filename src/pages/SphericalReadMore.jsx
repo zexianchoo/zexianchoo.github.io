@@ -6,15 +6,16 @@ const SphericalReadMore = () => {
   return (
     <main className='flex flex-col w-full h-screen' >
       <Nav />
-      <section className='mb-auto padding-x'>
+      <section className='mb-auto padding-x fading-down' >
         <div>
           <SphericalWorld />
         </div>
+      </section>
+
         <div id='footer' className=''>
           <Footer />
         </div>
 
-      </section>
     </main>
   )
 }

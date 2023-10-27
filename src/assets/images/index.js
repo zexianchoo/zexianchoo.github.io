@@ -6,6 +6,7 @@ import frisbee from './frisbee.png'
 import spherical_world from './spherical_world.png'
 import obama_fake from './obama_fake.png'
 import driving_test from './driving_test.png'
+import multidiffusion_crops from './multidiffusion_crops.png'
 
 export {
     icon,
@@ -15,5 +16,6 @@ export {
     frisbee,
     spherical_world,
     obama_fake,
-    driving_test
+    driving_test,
+    multidiffusion_crops
 }

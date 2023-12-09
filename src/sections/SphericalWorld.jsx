@@ -1,5 +1,4 @@
-import { Button } from "../components"
-import { multidiffusion_crops } from "../assets/images"
+import { multidiffusion_crops, pipeline } from "../assets/images"
 
 const SphericalWorld = () => {
   return (
@@ -64,10 +63,37 @@ const SphericalWorld = () => {
         </div>
       </section>  
       <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-      <section className="">
+      <section className="space-y-10 padding-b">
         <h1 className="heading-text"> What I'm working on: </h1>
         <div className="info-text text-left">
-          We are currently working on creating a 
+          We are currently working on creating a pipeline which allows for real time generation 
+          and rendering of 3D spherical world in 3DGS with text-input prompts.
+        </div>
+
+        <div>
+          <img
+            src = { pipeline }
+            alt='pipeline'
+            width={400}
+            height={400}
+            className='mx-auto my-auto'
+          >
+          </img>
+          <p className="info-text text-center mb-2">
+            <span className="font-bold" > Fig. 2. </span> Pipeline of generation and rendering with 3DGS + multidiffusion.
+          </p>
+        </div>
+        <p className="info-text text-left">
+          Work is still in progress!
+        </p>
+        <div>
+          <a
+          href={"/projects"}
+          className='transition hover:border backdrop:gap-2 lg:px-5 lg:py-2 rounded-full hover:bg-[#fb7185]
+                  font-montserrat leading-none lg:text-lg sm:text-sm text-slate-gray sm:relative bg-[#fda4af]'
+          >
+            {"Back to Projects"}
+          </a>
         </div>
       </section>
     </main>

@@ -7,6 +7,7 @@ import spherical_world from './spherical_world.png'
 import obama_fake from './obama_fake.png'
 import driving_test from './driving_test.png'
 import multidiffusion_crops from './multidiffusion_crops.png'
+import pipeline from './pipeline.png'
 
 export {
     icon,
@@ -17,5 +18,6 @@ export {
     spherical_world,
     obama_fake,
     driving_test,
-    multidiffusion_crops
+    multidiffusion_crops,
+    pipeline
 }

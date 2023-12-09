@@ -1,22 +1,21 @@
 import React from 'react'
-import { Nav, Footer } from '../components'
+import { Nav, Footer, Deepfake } from '../components'
+import { DeepfakePage } from '../sections'
 
 const DeepFakeReadMore = () => {
   return (
-    <main className='w-full h-screen' >
+    <main className='flex flex-col w-full h-screen' >
       <Nav />
-      <section className='flex flex-col min-h-full justify-between'>
+      <section className='mb-auto padding-x fading-down' >
         <div>
-          <div className='text-center h-screen mb-auto'>
-            <h1 className='heading-text'> Under Construction
-              </h1>
-          </div>
+          <DeepfakePage />
         </div>
-          <div id='footer' className='my-auto pb-10 bg-slate-500'>
-            <Footer />
-          </div>
-
       </section>
+
+        <div id='footer' className=''>
+          <Footer />
+        </div>
+
     </main>
   )
 }

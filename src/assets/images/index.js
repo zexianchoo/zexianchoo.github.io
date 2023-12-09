@@ -9,6 +9,8 @@ import driving_test from './driving_test.png'
 import multidiffusion_crops from './multidiffusion_crops.png'
 import pipeline from './pipeline.png'
 import ensemble from './ensemble.png'
+import telegram from './telegram.png'
+import flask from './flask.png'
 
 export {
     icon,
@@ -21,5 +23,7 @@ export {
     driving_test,
     multidiffusion_crops,
     pipeline,
-    ensemble
+    ensemble,
+    telegram,
+    flask
 }

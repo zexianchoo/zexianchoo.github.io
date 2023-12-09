@@ -1,4 +1,4 @@
-import { multidiffusion_crops, pipeline } from "../assets/images"
+import { ensemble, } from "../assets/images"
 
 const DeepfakePage = () => {
   return (
@@ -62,11 +62,40 @@ const DeepfakePage = () => {
             performance of models. <a target="_blank" rel="noopener noreferrer" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" 
             href="https://arxiv.org/pdf/2207.02204.pdf/">
                 Seq-Deepfake(2022)
-            </a> showed just how important video quality was, because when I tried running the model on lower quality datasets, it had poor results.
-
+            </a> showed just how important video quality was, because when I tried running the model on lower quality datasets, it had poor results,
+            with around chance performance.
+          </p>
+          <p className="info-text">
+            <span className="font-bold text-center"> Solution: </span>
           </p>
         </div>
         <div>
+          <img
+            src = { ensemble }
+            alt='pipeline'
+            width={400}
+            height={400}
+            className='mx-auto my-auto'
+          >
+          </img>
+          <p className="info-text text-center mb-2">
+            <span className="font-bold" > Fig. 1. </span> Novel ensemble classification with Video Quality Data
+          </p>
+        </div>
+        <div>
+          <p className="info-text text-left">
+              Since there was a large emphasis on video quality, with different models working differently with different
+              video qualities, I used a <a target="_blank" rel="noopener noreferrer" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" 
+            href="https://github.com/rolinh/VQMT">
+                 video quality tool
+            </a> to analyze Video Quality Metrics of input videos. Some of these metrics include: PSNR: Peak Signal-to-Noise Ratio, SSIM: Structural Similarity etc.
+          </p>
+          <p className="info-text text-left">
+            I then used these metrics as inputs into my ensemble classifier using different models, eventually achieving 0.95 AUC.
+          </p>
+        </div>
+
+        <div className="py-10">
           <a
           href={"/projects"}
           className='transition hover:border backdrop:gap-2 lg:px-5 lg:py-2 rounded-full hover:bg-[#fb7185]

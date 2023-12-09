@@ -8,6 +8,7 @@ import obama_fake from './obama_fake.png'
 import driving_test from './driving_test.png'
 import multidiffusion_crops from './multidiffusion_crops.png'
 import pipeline from './pipeline.png'
+import ensemble from './ensemble.png'
 
 export {
     icon,
@@ -19,5 +20,6 @@ export {
     obama_fake,
     driving_test,
     multidiffusion_crops,
-    pipeline
+    pipeline,
+    ensemble
 }

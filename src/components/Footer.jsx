@@ -23,7 +23,7 @@ const Footer = () => {
             </ul>
         </div>
         <div className='items-end'>
-            <p className='max-container font-montserrat leading-none sm:text-sm hidden sm:block text-slate-50'>Created by Ze Xian Choo</p>
+            <p className='max-container font-montserrat leading-none sm:text-sm hidden sm:block text-slate-50'>Created by Ze Xian Choo.</p>
         </div>
     </section>
 

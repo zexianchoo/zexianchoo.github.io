@@ -7,8 +7,9 @@ const Contact = () => {
     <main className='sm:relative flex flex-col w-full h-screen ' >
         <Nav />
       <div className='mb-auto'>
-        <section id='ContactInfo' className='padding'>
+        <section id='ContactInfo' className='padding fading-down-fast'>
           <ContactInfo />
+          
         </section>
       </div>
       <footer id='footer' className='pb-10 bg-slate-500'>

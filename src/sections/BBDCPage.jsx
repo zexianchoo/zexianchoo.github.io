@@ -2,7 +2,7 @@ import { flask, telegram } from "../assets/images"
 
 const BBDCPage = () => {
   return (
-    <main className='flex flex-col space-y-10 text-center padding-x mx-auto'>
+    <main className='flex flex-col space-y-10 text-center padding-x mx-auto max-container'>
       <section className='space-y-10'>
         <div className=''>
           <h1 className='text-center heading-text'> Automated Driving Lesson Booking Bot </h1>

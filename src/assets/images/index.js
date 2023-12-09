@@ -11,6 +11,8 @@ import pipeline from './pipeline.png'
 import ensemble from './ensemble.png'
 import telegram from './telegram.png'
 import flask from './flask.png'
+import plane from './plane.jpg'
+import website from './website_1.png'
 
 export {
     icon,
@@ -25,5 +27,7 @@ export {
     pipeline,
     ensemble,
     telegram,
-    flask
+    flask,
+    plane,
+    website
 }

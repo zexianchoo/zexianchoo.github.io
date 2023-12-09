@@ -5,6 +5,7 @@ import ContactInfo from "./ContactInfo";
 import SphericalWorld from "./SphericalWorld";
 import BBDCPage from "./BBDCPage";
 import DeepfakePage from "./DeepfakePage";
+import GCPPage from "./GCPPage";
 
 
 export {
@@ -14,6 +15,7 @@ export {
     ContactInfo,
     SphericalWorld,
     BBDCPage,
-    DeepfakePage
+    DeepfakePage,
+    GCPPage
 
 }

@@ -2,7 +2,7 @@ import { multidiffusion_crops, pipeline } from "../assets/images"
 
 const SphericalWorld = () => {
   return (
-    <main className='flex flex-col space-y-10 text-center padding-x'>
+    <main className='flex flex-col space-y-10 text-center padding-x max-container'>
       <section className='space-y-10'>
         <div className=''>
           <h1 className='text-center heading-text'> Spherical World Generation </h1>

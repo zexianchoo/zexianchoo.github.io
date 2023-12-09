@@ -1,5 +1,5 @@
 import { Github, Mail, LinkedIn } from "../assets/icons"
-import { spherical_world, obama_fake, driving_test } from '../assets/images'
+import { spherical_world, obama_fake, driving_test, plane } from '../assets/images'
 
 export const navLinks = [
     { href: "/", label: "Home" },
@@ -43,4 +43,8 @@ export const BBDC_text = 'I created an open source Github Repo with an automated
     {img_class: driving_test, title: "Automated Driving Lesson Booking Bot", text: BBDC_text, read_more_href: "/booking-bot"} 
 ]
 
-export const spherical_page_text = ''
+export const GCP_text = 'Full-Stack Website'
+
+ export const GCP_data = [ 
+    {img_class: plane, title: "Full-Stack Airplane Evaluation Tool", text: GCP_text, read_more_href: "/full-stack"} 
+]

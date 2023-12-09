@@ -2,7 +2,7 @@ import { ensemble, } from "../assets/images"
 
 const DeepfakePage = () => {
   return (
-    <main className='flex flex-col space-y-10 text-center padding-x mx-auto'>
+    <main className='flex flex-col space-y-10 text-center padding-x mx-auto max-container'>
       <section className='space-y-10'>
         <div className=''>
           <h1 className='text-center heading-text'> Deepfake Detection </h1>
@@ -82,7 +82,7 @@ const DeepfakePage = () => {
             <span className="font-bold" > Fig. 1. </span> Novel ensemble classification with Video Quality Data
           </p>
         </div>
-        <div>
+        <div className="space-y-10">
           <p className="info-text text-left">
               Since there was a large emphasis on video quality, with different models working differently with different
               video qualities, I used a <a target="_blank" rel="noopener noreferrer" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" 

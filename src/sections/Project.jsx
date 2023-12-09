@@ -1,6 +1,6 @@
 import React from 'react'
-import { CurrentCard, Card } from "../components"
-import { PURE_data, Deepfake_data, BBDC_data } from '../constants'
+import { CurrentCard, Card, GCP } from "../components"
+import { PURE_data, Deepfake_data, BBDC_data, GCP_data } from '../constants'
 import { BBDC, Deepfake } from "../components"
 
 const Project = () => {
@@ -37,7 +37,19 @@ const Project = () => {
       ))}
       </ul>
     </section>
-
+    
+    <section className='fading-down-slower card-padding'>
+    <ul>
+        {GCP_data.map((item) => (
+        <li>
+          <GCP img_class = {item.img_class}
+          title={item.title}
+          text={item.text}
+          read_more_href={item.read_more_href}/>
+        </li> 
+      ))}
+      </ul>
+    </section>
     <section className='fading-down-slower card-padding'>
     <ul>
         {BBDC_data.map((item) => (
@@ -50,6 +62,8 @@ const Project = () => {
       ))}
       </ul>
     </section>
+
+
     </main>
   )
 }

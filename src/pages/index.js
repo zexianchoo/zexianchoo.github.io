@@ -6,6 +6,7 @@ import Timeline from "./Timeline";
 import BBDCReadMore from "./BBDCReadMore";
 import DeepFakeReadMore from "./DeepFakeReadMore";
 import SphericalReadMore from "./SphericalReadMore";
+import GCPReadMore from "./GCPReadMore";
 
 export {
     Home,
@@ -16,4 +17,5 @@ export {
     BBDCReadMore,
     SphericalReadMore,
     DeepFakeReadMore,
+    GCPReadMore
 }

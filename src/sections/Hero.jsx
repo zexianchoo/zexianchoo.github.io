@@ -36,7 +36,7 @@ const Hero = () => {
           <div className='justify-left'>
             <ul className='space-y-4 sm:text-lg font-light max-sm:text-sm  font-Palanquin text-dark-blue fading-right-slower py-2' >
                 <p className='' >
-                  📖 CS Student @ UIUC
+                  📖 CS Junior @ UIUC
                 </p>
                 <p className='' >
                   💻 Computer Vision Researcher @ Promoting Undergraduate Research Engineering (PURE)

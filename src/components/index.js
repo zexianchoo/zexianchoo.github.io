@@ -5,7 +5,7 @@ import Card from "./Card"
 import CurrentCard from "./CurrentCard"
 import BBDC from "./BBDC"
 import Deepfake from "./Deepfake"
-
+import GCP from "./GCP";
 export {
     Nav,
     Button,
@@ -13,5 +13,6 @@ export {
     Card,
     CurrentCard,
     BBDC,
-    Deepfake
+    Deepfake,
+    GCP
 }

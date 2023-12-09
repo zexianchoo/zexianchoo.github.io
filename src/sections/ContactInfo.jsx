@@ -1,3 +1,4 @@
+import { footer_icons } from "../constants";
 
 const ContactInfo = () => {
   return (
@@ -19,6 +20,26 @@ const ContactInfo = () => {
             Find the source code for this website <a href='https://github.com/zexianchoo/zexianchoo.github.io'
             target="_blank" rel="noopener noreferrer" className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" > here! </a> 
           </p>
+          <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+
+          <div className="mt-3 flex content-center max-container sm:relative justify-center">
+            <ul className='mt-3 flex flex-wrap items-center justify-center sm:gap-12 max-sm:gap-3'>
+                {footer_icons.map((item) => (
+                    <li key={ item.label }>
+                        <a href = { item.href }>
+                            <img
+                                src={ item.src }
+                                alt="test"
+                                className="m-0"
+                                height = {48}
+                                width={48}
+                            />
+                        </a>
+                    </li>
+                ))}
+            </ul>
+        </div>
+
         </div>
 
       </div>

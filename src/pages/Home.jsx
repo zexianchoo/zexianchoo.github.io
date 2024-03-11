@@ -23,7 +23,7 @@ const Home = () => {
       
         <Nav />
       <div className='flex-1'>
-        <section id='hero' className='mb-auto padding'>
+        <section id='hero' className='mb-auto '>
           <Hero />
         </section>
       </div>

@@ -6,7 +6,7 @@ import SphericalWorld from "./SphericalWorld";
 import BBDCPage from "./BBDCPage";
 import DeepfakePage from "./DeepfakePage";
 import GCPPage from "./GCPPage";
-
+import ChatBotPage from "./ChatBotPage";
 
 export {
     Hero,
@@ -16,6 +16,7 @@ export {
     SphericalWorld,
     BBDCPage,
     DeepfakePage,
-    GCPPage
+    GCPPage,
+    ChatBotPage
 
 }

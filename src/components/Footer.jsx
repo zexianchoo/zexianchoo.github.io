@@ -9,7 +9,7 @@ const Footer = () => {
             <ul className='mt-3 flex flex-wrap items-center justify-center sm:gap-12 max-sm:gap-3'>
                 {footer_icons.map((item) => (
                     <li key={ item.label }>
-                        <a href = { item.href }>
+                        <a target="_blank" rel="noopener noreferrer" href = { item.href }>
                             <img
                                 src={ item.src }
                                 alt="test"

@@ -4,10 +4,10 @@ import { face, icon } from "../assets/images";
 
 const Hero = () => {
   return (
-    <main className='flex flex-col mb-auto'>
+    <main className='flex flex-col max-container space-y-2'>
       <section
         id='home'
-        className='relative py-10 max-sm:pt-8 sm:flex max-sm:flex-col justify-between items-center max-container object-scale-down min-h-full'
+        className='relative sm:flex max-sm:flex-col justify-between items-center object-scale-down '
       >
         <div className='sm:flex-col max-sm:text-lg fading-down-slow items-center justify-center'>
           <img
@@ -22,12 +22,12 @@ const Hero = () => {
               Choo Ze Xian
             </p>
             <p className='relative max-sm:text-lg max-md:xl md:text-2xl text-center font-montserrat text-dark-blue max-sm:py-2 min-sm:py-8 fading-down-slow'>
-              Machine Learning | Computer Vision
+              Computer Vision | Quantitative Finance
             </p>
           </div>
         </div>
 
-        <div className='flex flex-col sm:ml-36'>
+        <div className='flex flex-col sm:ml-36 space-y-4'>
           <div className='py-2 sm:max-w-full'>
             <p className='sm:text-[55px] max-sm:text-md font-montserrat text-dark-blue fading-right-slower' >
               Hey! 👋 My name is <span className='text-coral-red font-semibold'>Ze Xian Choo</span>. 
@@ -42,18 +42,19 @@ const Hero = () => {
                   💻 Computer Vision Researcher @ Promoting Undergraduate Research Engineering (PURE)
                 </p>
                 <p className='' >
-                  👨‍🏫 Course Assistant for CS 222
+                  💬 Conversational Search Engineer @ PeopleWeave 
                 </p>
+
+                <p className='' >
+                  📈 Trading Algorithms Engineer @ Illini Blockchain
+                </p>
+                
                 <p className='' >
                   🏘️ Sigma Phi Delta
                 </p>
 
                 <p className='' >
-                  🥏 Ultimate Frisbee
-                </p>
-                
-                <p className='' >
-                  ... and loves ☕
+                  ... and <span className='text-italics'> really </span> loves ☕!
                 </p>
             </ul>
           </div>

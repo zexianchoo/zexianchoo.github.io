@@ -1,5 +1,5 @@
 import { Github, Mail, LinkedIn } from "../assets/icons"
-import { spherical_world, obama_fake, driving_test, plane } from '../assets/images'
+import { spherical_world, obama_fake, driving_test, plane, chatbot } from '../assets/images'
 
 export const navLinks = [
     { href: "/", label: "Home" },
@@ -47,4 +47,10 @@ export const GCP_text = 'Full-Stack Website'
 
  export const GCP_data = [ 
     {img_class: plane, title: "Full-Stack Airplane Evaluation Tool", text: GCP_text, read_more_href: "/full-stack"} 
+]
+
+export const ChatBot_text = 'Retrieval Augmented Generation (RAG) ChatBot'
+
+ export const ChatBot_data = [ 
+    {img_class: chatbot, title: "Retrieval Augmented Generation (RAG) ChatBot", text: ChatBot_text, read_more_href: "/chatbot"} 
 ]

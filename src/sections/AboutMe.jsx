@@ -1,42 +1,47 @@
 import React from 'react'
-import { frisbee, brownies, cookies } from '../assets/images';
+import { frisbee, brownies, cookies, working_out } from '../assets/images';
 const AboutMe = () => {
     return (
         <section
           id='about'
-          className='relative max-sm:pt-8 sm:flex flex-col max-container px-8  min-h-full '
+          className='max-container justify-center items-center space-y-4'
         >
-            <section className='max-container max-sm:text-lg max-md:xl md:text-2xl fading-down-fast'>
-                <h1 className='font-palanquin text-center text-4xl font-bold sm:pt-16 pt-8'> 
-                    About Me!
-                </h1>
+            <div className='padding-x'>
+                <section className='max-container max-sm:text-lg max-md:xl md:text-2xl fading-down-fast'>
+                    <h1 className='font-palanquin text-center text-4xl font-bold '> 
+                        About Me! 🤩
+                    </h1>
 
-                <div className='py-20 space-y-12'>
-                    <p className='font-montserrat text-dark-blue max-sm:py-2 min-sm:py-8'>
-                    I am passionate about developing applications
-                    I have experience working with 2 main focuses: Deep Learning and Web Development:  
-                    </p>
+                    <div className='py-20 space-y-12'>
+                        <p className='info-text text-dark-blue max-sm:py-2 min-sm:py-8'>
+                        I am currently interested in the fields of Computer Vision, as well as Quantitative Finance. While there may not seem 
+                        to be any obvious overlap in both of these fields, it feels like there are many skills I've learnt that are applicable to both.
+                        </p>
 
-                    <p className='font-montserrat text-dark-blue max-sm:py-2 min-sm:py-8'>
-                    </p>
+                        <p className='info-text'>
+                            My Tech Stack:
+                        </p>
 
-                    <ul className='list-disc font-montserrat text-dark-blue max-sm:py-2 min-sm:py-8 space-y-3'>
+                        <ul className='list-disc info-text space-y-2'>
 
-                        <li className='ml-10'> Torch, Tensorflow, OpenCV, NeRFStudio. I am currently working on creating diffusion models with spherical geometry. </li>
+                            <li className='ml-10'> Torch, Tensorflow, OpenCV, HuggingFace. </li>
 
-                        <li className='ml-10'> React, Tailwind, MongoDB, PostgreSQL, MySQL. </li>
-                    </ul>
+                            <li className='ml-10'> RCMX Strategy Studio, GCP,  </li>
 
-                    <p className='font-montserrat text-dark-blue max-sm:py-2 min-sm:py-8'>
-                    Technicalities aside, I really enjoy coffee, playing ultimate frisbee and baking.
-                    </p>
-                </div>
-            </section>
+                            <li className='ml-10'> React, Tailwind, MongoDB, PostgreSQL, MySQL. </li>
+                        </ul>
+
+                        <p className='info-text text-dark-blue max-sm:py-2 min-sm:py-8'>
+                        Technicalities aside, I really enjoy coffee (I think you could probably tell), playing ultimate frisbee, baking and working out.
+                        </p>
+                    </div>
+                </section>
+            </div>
             
             <section className=''>
                 <div className='flex flex-wrap justify-between max-w-full items-center padding-b space-y-2 fading-right-delayed' >
                     <img
-                        src={ cookies }
+                        src={ working_out }
                         alt='cookies'
                         width={300}
                         height={300}

@@ -1,6 +1,6 @@
 import React from 'react'
-import { CurrentCard, Card, GCP } from "../components"
-import { PURE_data, Deepfake_data, BBDC_data, GCP_data } from '../constants'
+import { CurrentCard, Card, GCP, ChatBot } from "../components"
+import { PURE_data, Deepfake_data, BBDC_data, GCP_data, ChatBot_data } from '../constants'
 import { BBDC, Deepfake } from "../components"
 
 const Project = () => {
@@ -12,6 +12,20 @@ const Project = () => {
     <h1 className='heading-text text-center font-semibold fading-right-fast'>
       Here's some projects I've worked on ✌️:
     </h1>
+
+    <section className='fading-down-slower card-padding'>
+    <ul>
+        {ChatBot_data.map((item) => (
+        <li>
+          <ChatBot img_class = {item.img_class}
+          title={item.title}
+          text={item.text}
+          read_more_href={item.read_more_href}/>
+        </li> 
+      ))}
+      </ul>
+    </section>
+
     <section className='fading-down-slower card-padding'>
     <ul>
         {PURE_data.map((item) => (

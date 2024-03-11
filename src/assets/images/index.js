@@ -13,6 +13,8 @@ import telegram from './telegram.png'
 import flask from './flask.png'
 import plane from './plane.jpg'
 import website from './website_1.png'
+import chatbot from './chatbot.jpg'
+import working_out from './working_out.jpg'
 
 export {
     icon,
@@ -29,5 +31,7 @@ export {
     telegram,
     flask,
     plane,
-    website
+    website,
+    chatbot,
+    working_out
 }

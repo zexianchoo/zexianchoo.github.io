@@ -6,6 +6,8 @@ import CurrentCard from "./CurrentCard"
 import BBDC from "./BBDC"
 import Deepfake from "./Deepfake"
 import GCP from "./GCP";
+import ChatBot from "./ChatBot";
+
 export {
     Nav,
     Button,
@@ -14,5 +16,6 @@ export {
     CurrentCard,
     BBDC,
     Deepfake,
-    GCP
+    GCP,
+    ChatBot
 }

@@ -25,7 +25,7 @@ const Nav = () => {
                             href={item.href}
                             className='transition ease-in-out hover:border backdrop:gap-2 px-5 py-2
                             hover:bg-light-blue hover:border-light-blue rounded-full 
-                                    font-montserrat leading-none text-lg text-slate-gray sm:relative'
+                                    font-montserrat leading-none text-xl text-slate-gray sm:relative'
                         >
                             {item.label}
                         </a>

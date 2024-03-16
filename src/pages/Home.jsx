@@ -19,11 +19,10 @@ const Home = () => {
 
 
   return (
-    <main className='flex flex-col min-h-screen w-full ' >
-      
+    <main className='sm:relative flex flex-col w-full h-screen justify-between'>
         <Nav />
-      <div className='flex-1'>
-        <section id='hero' className='mb-auto '>
+      <div className='items-center justify-center'>
+        <section id='hero' className=''>
           <Hero />
         </section>
       </div>

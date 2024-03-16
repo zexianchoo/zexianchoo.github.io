@@ -12,7 +12,7 @@ const Projects = () => {
         </section>
       </div>
       <div>
-        <section id='footer' className='pb-10 bg-slate-500'>
+        <section id='footer' className=''>
           <Footer />
         </section>
       </div>

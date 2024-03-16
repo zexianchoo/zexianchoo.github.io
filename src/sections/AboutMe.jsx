@@ -26,9 +26,9 @@ const AboutMe = () => {
 
                             <li className='ml-10'> Torch, Tensorflow, OpenCV, HuggingFace. </li>
 
-                            <li className='ml-10'> RCMX Strategy Studio, GCP,  </li>
+                            <li className='ml-10'> RCMX Strategy Studio, Databento, IEX.  </li>
 
-                            <li className='ml-10'> React, Tailwind, MongoDB, PostgreSQL, MySQL. </li>
+                            <li className='ml-10'> React, Tailwind, MongoDB, PostgreSQL, MySQL, GCP, Azure. </li>
                         </ul>
 
                         <p className='info-text text-dark-blue max-sm:py-2 min-sm:py-8'>

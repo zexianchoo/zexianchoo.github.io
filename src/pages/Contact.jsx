@@ -12,7 +12,7 @@ const Contact = () => {
           
         </section>
       </div>
-      <footer id='footer' className='pb-10 bg-slate-500'>
+      <footer id='footer' className=''>
         <Footer />
       </footer>
     </main>

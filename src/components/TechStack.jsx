@@ -99,7 +99,7 @@ const TechStack = () => {
 
     <div className='flex flex-wrap gap-x-4 gap-y-4'>
         {iconUrls.map((icon, index) => (
-            <div key={index} className='flex flex-col items-center w-20 max-sm:scale-75
+            <div key={index} className='flex flex-col items-center w-20 max-sm:scale-75 max-sm:w-10
                 border-slate-800 border-2 border-transparent hover:bg-[#fda4af] hover:border-slate-800'>
                 <a href={icon.href} target="_blank" rel="noopener noreferrer">
                     <img className='icon-size' src={icon.url} alt={`Icon ${index}`} />

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -112,12 +113,31 @@
     @apply font-montserrat text-slate-gray max-sm:text-lg sm:text-4xl leading-7;
   }
 
+  .tech-text {
+    @apply font-ShareTech text-slate-gray sm:text-2xl max-sm:text-sm leading-loose font-light;
+  }
+
+
+  .desc-text {
+    @apply font-ShareTech text-slate-gray
+    
+    sm:text-lg max-sm:text-sm leading-loose font-extralight;
+  }
+
   .card{
     @apply shadow-xl py-10 border-2 
   }
+
+  .icon-size{
+    @apply  object-scale-down h-12 w-12 mx-auto
+  }
 }
 
-
+@layer base {
+  .font-ShareTech {
+    font-family: 'Share Tech', sans-serif;
+  }
+}
 
 @keyframes fade-down {
   0% {

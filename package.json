@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "devicon": "^2.16.0",
     "framer-motion": "^10.16.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

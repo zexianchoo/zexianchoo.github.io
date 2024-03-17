@@ -1,5 +1,6 @@
 import React from 'react'
 import { face, icon } from "../assets/images";
+import { TechStack } from '../components';
 
 
 const Hero = () => {
@@ -57,6 +58,9 @@ const Hero = () => {
                   ... and <span className='text-italics'> really </span> loves ☕!
                 </p>
             </ul>
+          </div>
+          <div className='max-sm:scale-75 fading-right-slower'>
+            <TechStack />
           </div>
         </div>
 

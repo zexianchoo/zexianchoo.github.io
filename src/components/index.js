@@ -7,6 +7,7 @@ import BBDC from "./BBDC"
 import Deepfake from "./Deepfake"
 import GCP from "./GCP";
 import ChatBot from "./ChatBot";
+import TechStack from "./TechStack";
 
 export {
     Nav,
@@ -17,5 +18,6 @@ export {
     BBDC,
     Deepfake,
     GCP,
-    ChatBot
+    ChatBot,
+    TechStack
 }

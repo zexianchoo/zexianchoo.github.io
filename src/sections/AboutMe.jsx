@@ -1,5 +1,8 @@
 import React from 'react'
 import { frisbee, brownies, cookies, working_out } from '../assets/images';
+import { TechStack } from '../components';
+
+
 const AboutMe = () => {
     return (
         <section
@@ -18,18 +21,7 @@ const AboutMe = () => {
                         to be any obvious overlap in both of these fields, it feels like there are many skills I've learnt that are applicable to both.
                         </p>
 
-                        <p className='info-text'>
-                            My Tech Stack:
-                        </p>
-
-                        <ul className='list-disc info-text space-y-2'>
-
-                            <li className='ml-10'> Torch, Tensorflow, OpenCV, HuggingFace. </li>
-
-                            <li className='ml-10'> RCMX Strategy Studio, Databento, IEX.  </li>
-
-                            <li className='ml-10'> React, Tailwind, MongoDB, PostgreSQL, MySQL, GCP, Azure. </li>
-                        </ul>
+                        <TechStack/>
 
                         <p className='info-text text-dark-blue max-sm:py-2 min-sm:py-8'>
                         Technicalities aside, I really enjoy coffee (I think you could probably tell), playing ultimate frisbee, baking and working out.

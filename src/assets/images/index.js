@@ -15,6 +15,7 @@ import plane from './plane.jpg'
 import website from './website_1.png'
 import chatbot from './chatbot.jpg'
 import working_out from './working_out.jpg'
+import train_selfie from './train_selfie.png'
 
 export {
     icon,
@@ -33,5 +34,6 @@ export {
     plane,
     website,
     chatbot,
-    working_out
+    working_out,
+    train_selfie
 }

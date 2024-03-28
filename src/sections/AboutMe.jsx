@@ -1,5 +1,5 @@
 import React from 'react'
-import { frisbee, brownies, cookies, working_out } from '../assets/images';
+import { frisbee, brownies, cookies, working_out, train_selfie } from '../assets/images';
 import { TechStack } from '../components';
 
 
@@ -33,8 +33,8 @@ const AboutMe = () => {
             <section className=''>
                 <div className='flex flex-wrap justify-between max-w-full items-center padding-b space-y-2 fading-right-delayed' >
                     <img
-                        src={ working_out }
-                        alt='cookies'
+                        src={ train_selfie }
+                        alt='train_selfie'
                         width={300}
                         height={300}
                         className='object-contain rounded-2xl mx-auto relative'

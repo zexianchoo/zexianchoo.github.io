@@ -4,7 +4,7 @@ import { DeepfakePage } from '../sections'
 
 const DeepFakeReadMore = () => {
   return (
-    <main className='flex flex-col w-full h-screen' >
+    <main className='flex flex-col w-full h-screen ' >
       <Nav />
       <section className='mb-auto padding-x fading-down' >
         <div>

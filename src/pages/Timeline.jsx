@@ -4,7 +4,7 @@ import { Nav, Footer } from '../components'
 
 const Timeline = () => {
   return (
-    <main className='w-full h-screen' >
+    <main className='w-full h-screen bg-cover.bg-clip-custom-2 bg-[url("src/assets/images/wave.svg")]' >
       <Nav />
       <section className='flex flex-col min-h-full justify-between'>
         <div>

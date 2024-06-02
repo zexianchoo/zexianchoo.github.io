@@ -19,7 +19,7 @@ const Home = () => {
 
 
   return (
-    <main className='sm:relative flex flex-col w-full h-screen justify-between'>
+    <main className='sm:relative flex flex-col w-full h-screen justify-between bg-cover.bg-clip-custom-2 bg-[url("src/assets/images/wave.svg")]'>
         <Nav />
       <div className='items-center justify-center'>
         <section id='hero' className=''>

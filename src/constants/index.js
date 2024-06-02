@@ -7,6 +7,7 @@ export const navLinks = [
     { href: "/projects", label: "Projects" },
     // { href: "/timeline", label: "Timeline" },
     { href: "/contact", label: "Contact" }, 
+    { href: "/poetry", label: "Poetry" }, 
 ];
 
 export const footer_icons = [

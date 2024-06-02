@@ -20,6 +20,7 @@ export default {
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
+        kirimoni: ['Kirimomi Swash', 'sans-serif'],
       },
       colors: {
         'primary': "#ECEEFF",
@@ -41,8 +42,26 @@ export default {
       },
       screens: {
         "wide": "1440px"
-      }
+      },
+
+      backgroundImage: {
+        'image1': "url('src/assets/images/wavee.png')",
+        'image2': "url('src/assets/images/wave2.png')",
+      },
+      clipPath: {
+        custom: 'polygon(0 0, 100% 0, 100% 50%, 0 100%)', // Example custom shape
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.clip-custom': {
+          'clip-path': 'polygon(0 0, 100% 0, 100% 50%, 0 100%)',
+        },
+      };
+
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },
+  ],
 }

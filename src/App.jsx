@@ -1,4 +1,4 @@
-import { Home, About, Contact, Projects, Timeline, SphericalReadMore, DeepFakeReadMore, BBDCReadMore, GCPReadMore, ChatBotReadMore } from './pages'
+import { Home, About, Contact, Projects, Timeline, SphericalReadMore, DeepFakeReadMore, BBDCReadMore, GCPReadMore, ChatBotReadMore, Poetry } from './pages'
 import React, { useEffect, useState } from 'react'
 import { Routes, Route } from "react-router-dom";
 
@@ -20,6 +20,7 @@ const App = () => {
       <Route path="booking-bot" element={<BBDCReadMore />} />
       <Route path="full-stack" element={<GCPReadMore />} />
       <Route path="chatbot" element={<ChatBotReadMore />} />
+      <Route path="poetry" element={<Poetry />} />
     </Routes>
   </div>
 

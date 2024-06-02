@@ -18,5 +18,4 @@ export {
     DeepfakePage,
     GCPPage,
     ChatBotPage
-
 }

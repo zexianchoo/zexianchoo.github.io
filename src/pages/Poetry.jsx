@@ -4,7 +4,7 @@ import { footer_icons } from "../constants";
 
 const Poetry = () => {
   return (
-    <main className="sm:relative w-full h-screen flex flex-col justify-between bg-cover.bg-clip-custom-2 bg-[url('src/assets/images/wave.svg')]">
+    <main className="sm:relative w-full h-screen flex flex-col justify-between bg-cover.bg-clip-custom-2 bg-wavebg">
         <Nav />
         <div className='max-container padding-x space-y-10'> 
             <section alt="Worthy" className='fading-down-fast'>

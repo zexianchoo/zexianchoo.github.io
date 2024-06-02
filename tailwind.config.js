@@ -39,15 +39,12 @@ export default {
       backgroundImage: {
         'hero': "url('assets/images/collection-background.svg')",
         'card': "url('assets/images/thumbnail-background.svg')",
+        'wavebg': "url('assets/images/wave.svg')",
       },
       screens: {
         "wide": "1440px"
       },
 
-      backgroundImage: {
-        'image1': "url('src/assets/images/wavee.png')",
-        'image2': "url('src/assets/images/wave2.png')",
-      },
       clipPath: {
         custom: 'polygon(0 0, 100% 0, 100% 50%, 0 100%)', // Example custom shape
       },

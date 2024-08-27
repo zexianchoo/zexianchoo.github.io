@@ -22,8 +22,8 @@ const Hero = () => {
             <p className='relative max-sm:text-2xl font-semibold sm:text-3xl text-center font-montserrat text-dark-blue max-sm:py-2 min-sm:py-8 fading-down-slow'>
               Choo Ze Xian
             </p>
-            <p className='relative max-sm:text-lg max-md:xl md:text-2xl text-center font-montserrat text-dark-blue max-sm:py-2 min-sm:py-8 fading-down-slow'>
-              Computer Vision | Quantitative Finance
+            <p className='relative max-sm:text-lg max-md:xl md:text-2xl whitespace-nowrap text-center font-montserrat text-dark-blue max-sm:py-2 min-sm:py-8 fading-down-slow'>
+              Software Engineer | <br/> DevOps Engineer
             </p>
           </div>
         </div>
@@ -37,8 +37,13 @@ const Hero = () => {
           <div className='justify-left'>
             <ul className='space-y-4 sm:text-lg font-light max-sm:text-sm  font-Palanquin text-dark-blue fading-right-slower py-2' >
                 <p className='' >
-                  📖 CS Junior @ UIUC
+                  📖 CS Senior @ UIUC
                 </p>
+
+                <p className='' >
+                  ☁️ DevOps/MLOps Engineer Intern @ HTX
+                </p>
+
                 <p className='' >
                   💻 Computer Vision Researcher @ Promoting Undergraduate Research Engineering (PURE)
                 </p>
@@ -49,7 +54,7 @@ const Hero = () => {
                 <p className='' >
                   📈 Trading Algorithms Engineer @ Illini Blockchain
                 </p>
-                
+
                 <p className='' >
                   🏘️ Sigma Phi Delta
                 </p>

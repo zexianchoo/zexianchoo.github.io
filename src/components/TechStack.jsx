@@ -1,5 +1,30 @@
 import React from 'react'
 const iconUrls = [
+
+    {
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg",
+        href: "https://www.terraform.io/",
+        desc: "Terraform"
+    },
+
+    {
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg",
+        href: "https://kubernetes.io/",
+        desc: "Kubernetes"
+    },
+
+    {
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+        href: "https://www.docker.com/",
+        desc: "Docker"
+    },
+
+    {
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+        href: "https://aws.amazon.com/",
+        desc: "AWS"
+    },
+    
     {
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg",
         href: "https://pytorch.org/",

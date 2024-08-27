@@ -13,7 +13,7 @@ const Poetry = () => {
                         Worthy
                     </h1>
                     <div className='max-w-prose'>
-                        <p className='font-kirimoni text-center text-md'>
+                        <p className='whitespace-nowrap font-kirimoni text-center text-md'>
                         How can one see her face and stand unfazed? <br/>
                         The man within the slanted glass musters<br/>
                         A short and shameful breath which flowed like rain;<br/>
@@ -35,7 +35,7 @@ const Poetry = () => {
                         Lifeless Departure
                     </h1>
                     <div className='max-w-prose'>
-                        <p className='font-kirimoni text-center text-md'>
+                        <p className='whitespace-nowrap font-kirimoni text-center text-md'>
                         Shall I watch the last river trickle with <br/>
                         Death, and wash the torture beauty cut in <br/>
                         Stones away? We turned these ancient rocks en-<br/>

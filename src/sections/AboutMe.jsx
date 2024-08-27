@@ -17,8 +17,7 @@ const AboutMe = () => {
 
                     <div className='py-20 space-y-12'>
                         <p className='info-text text-dark-blue max-sm:py-2 min-sm:py-8'>
-                        I am currently interested in the fields of Computer Vision, as well as Quantitative Finance. While there may not seem 
-                        to be any obvious overlap in both of these fields, it feels like there are many skills I've learnt that are applicable to both.
+                        I am passionate about the fields Computer Vision and DevSecOps. I am currently doing research in Computer Vision and doing DevOps side projects involving work with open source code!
                         </p>
 
                         <TechStack/>

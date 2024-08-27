@@ -28,14 +28,14 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className='flex flex-col sm:ml-36 space-y-4'>
+        <div className='flex flex-col sm:ml-36 space-y-4 fading-down-slow'>
           <div className='py-2 sm:max-w-full'>
-            <p className='sm:text-[55px] max-sm:text-md font-montserrat text-dark-blue fading-right-slower' >
+            <p className='sm:text-[55px] max-sm:text-md font-montserrat text-dark-blue' >
               Hey! 👋 My name is <span className='text-coral-red font-semibold'>Ze Xian Choo</span>. 
             </p>
           </div>
           <div className='justify-left'>
-            <ul className='space-y-4 sm:text-lg font-light max-sm:text-sm  font-Palanquin text-dark-blue fading-right-slower py-2' >
+            <ul className='space-y-4 sm:text-lg font-light max-sm:text-sm  font-Palanquin text-dark-blue py-2' >
                 <p className='' >
                   📖 CS Senior @ UIUC
                 </p>
@@ -64,7 +64,7 @@ const Hero = () => {
                 </p>
             </ul>
           </div>
-          <div className='max-sm:scale-75 fading-right-slower'>
+          <div className='max-sm:scale-75'>
             <TechStack />
           </div>
         </div>

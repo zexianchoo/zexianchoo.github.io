@@ -38,6 +38,7 @@ const Hero = () => {
             <ul className='space-y-4 sm:text-lg font-light max-sm:text-sm  font-Palanquin text-dark-blue py-2' >
                 <p className='' >
                   📖 CS Junior @ UIUC
+                  📖 CS Junior @ UIUC
                 </p>
 
                 <p className='' >

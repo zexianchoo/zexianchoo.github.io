@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <main className='sm:relative flex flex-col w-full h-screen justify-between bg-cover.bg-clip-custom-2 bg-wavebg'>
-        <Nav />
+      <Nav />
       <div className='items-center justify-center max-container'>
         <section id='hero' className=''>
           <Hero />

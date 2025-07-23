@@ -16,6 +16,8 @@ import website from './website_1.png'
 import chatbot from './chatbot.jpg'
 import working_out from './working_out.jpg'
 import train_selfie from './train_selfie.png'
+import portrait from './portrait.jpg'
+import cherry_blossoms from './cherry_blossoms.jpg'
 
 export {
     icon,
@@ -35,5 +37,7 @@ export {
     website,
     chatbot,
     working_out,
-    train_selfie
+    train_selfie,
+    portrait,
+    cherry_blossoms
 }

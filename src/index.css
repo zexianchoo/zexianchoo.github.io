@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kirimomi+Swash:wght@400;500;600&display=swap");
+@import 'prismjs/themes/prism-tomorrow.css';
 
 @tailwind base;
 @tailwind components;
@@ -196,4 +197,9 @@
 .bg-clip-custom-2 {
   clip-path: inset(0);
   transform: rotate(90deg)
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; 
 }

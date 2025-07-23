@@ -51,6 +51,7 @@ export default {
     },
   },
   plugins: [
+    require('@tailwindcss/typography'),
     function ({ addUtilities }) {
       const newUtilities = {
         '.clip-custom': {

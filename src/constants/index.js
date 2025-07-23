@@ -4,6 +4,7 @@ import { spherical_world, obama_fake, driving_test, plane, chatbot } from '../as
 export const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
+    { href: "/blog", label: "Blog" }, 
     { href: "/projects", label: "Projects" },
     // { href: "/timeline", label: "Timeline" },
     { href: "/contact", label: "Contact" }, 
@@ -15,7 +16,6 @@ export const footer_icons = [
     {src : LinkedIn, alt : "linkedin-icon", href: "https://www.linkedin.com/in/zexianchoo/"},
     {src : Mail, alt : "github-icon", href: "mailto:zxchoo2@illinois.edu"}
 ]
-
 
 export const PURE_text = 'Working with a team to investigate real-time rendering of a spherical 3D world \
 using Stable Diffusion and 3D Gaussian Splatting.\

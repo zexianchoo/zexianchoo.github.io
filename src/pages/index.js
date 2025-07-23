@@ -8,7 +8,8 @@ import DeepFakeReadMore from "./DeepFakeReadMore";
 import SphericalReadMore from "./SphericalReadMore";
 import GCPReadMore from "./GCPReadMore";
 import ChatBotReadMore from "./ChatBotReadMore";
-import Poetry from "./Poetry"
+import Poetry from "./Poetry";
+import Blog from "./Blog";
 
 export {
     Home,
@@ -21,5 +22,6 @@ export {
     DeepFakeReadMore,
     GCPReadMore,
     ChatBotReadMore,
-    Poetry
+    Poetry,
+    Blog,
 }

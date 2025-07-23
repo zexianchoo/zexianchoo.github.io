@@ -18,6 +18,7 @@ import working_out from './working_out.jpg'
 import train_selfie from './train_selfie.png'
 import portrait from './portrait.jpg'
 import cherry_blossoms from './cherry_blossoms.jpg'
+import homelab from './homelab.png'
 
 export {
     icon,
@@ -39,5 +40,6 @@ export {
     working_out,
     train_selfie,
     portrait,
-    cherry_blossoms
+    cherry_blossoms,
+    homelab
 }

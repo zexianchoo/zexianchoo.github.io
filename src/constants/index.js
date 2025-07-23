@@ -12,9 +12,9 @@ export const navLinks = [
 ];
 
 export const footer_icons = [
-    {src : Github, alt : "github-icon", href: "https://github.com/zexianchoo"},
-    {src : LinkedIn, alt : "linkedin-icon", href: "https://www.linkedin.com/in/zexianchoo/"},
-    {src : Mail, alt : "github-icon", href: "mailto:zxchoo2@illinois.edu"}
+    {src : Github, alt : "github-icon", label: 'github', href: "https://github.com/zexianchoo"},
+    {src : LinkedIn, alt : "linkedin-icon", label: 'linkedin', href: "https://www.linkedin.com/in/zexianchoo/"},
+    {src : Mail, alt : "mail-icon", label: 'mail', href: "mailto:zxchoo2@illinois.edu"}
 ]
 
 export const PURE_text = 'Working with a team to investigate real-time rendering of a spherical 3D world \

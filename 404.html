@@ -5,22 +5,18 @@
     <link rel="icon" type="image/svg+xml" href="/coffee-cup.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-site-verification" content="hFmo0o8kh-FuXuXzZ01T1k0m9v4i_qBqhz1nQJSFePE" />
-    <title>Ze Xian</title>
+    <title>Ze Xian - Page Not Found</title>
 
     <script>
-      (function(){
-        var redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        if (redirect && redirect != location.href) {
-          history.replaceState(null, null, redirect);
-        }
-      })();
+      sessionStorage.redirect = location.href;
     </script>
+
+    <meta http-equiv="refresh" content="0;url=/"></meta>
+
     <script type="module" crossorigin src="/assets/index-d4e7184a.js"></script>
     <link rel="stylesheet" href="/assets/index-d5fc9aac.css">
   </head>
   <body class="min-h-screen bg-off-white">
     <div id="root"></div>
-    
   </body>
 </html>

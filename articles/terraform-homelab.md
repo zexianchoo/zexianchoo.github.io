@@ -1,6 +1,6 @@
 ## What is a homelab and why should I build one?
 
-The beginning of this article details high level considerations of what is a homelab, when to build one etc. If you are looking to go straight to the terraform + docker guide, click here.
+The beginning of this article details high level considerations of what is a homelab, when to build one etc. If you are looking to go straight to the terraform + docker guide, skip ahead!
 
 ### What is a homelab?
 
@@ -88,13 +88,14 @@ I recommend porkbun.com for a domain because they are generally cheaper. You can
 
 There are a multitude of other places you can get domains too, so do your own research for your favorite domain name!
 
-[image for onboarding]
+![Onboarding](articles/cloudflare_onboard.png)
 
 ## Setting up DNS Nameservers (NS):
 
 Cloudflare provides an excellent onboarding process, so if you follow it you should most probably be fine. One of the key things is ensuring that you update the nameservers to be cloudflare here:
 
-[image for NS]
+![Porkbun](articles/porkbun.png)
+
 
 It may take up to a day for your domain to migrate to cloudflare NS. in the meantime:
 
@@ -190,17 +191,21 @@ http://glance.yourdomain.com {
 ```
 This tells caddy that if it receives any traffic for the domain `glance.yourdomain.com`, it will route it to localhost port 8080, which should be where glance exposes its port.
 
+## Cloudflare DNS dashboard
+
 One last thing you have to ensure is to got to your domain on cloudflare and click on the DNS tab.
 
 There, create a new CNAME record, with subdomain being `glance` and target being `<your_tunnel_uuid>.cfargotunnel.com`. Remember the `cfargotunnel.com` suffix for the cloudflare argo tunnel, and to ensure that the proxy status is set to be on (i.e. orange)
 
+## Conclusion:
+
 The link is now complete!!
 
-User -> cloudflare edge server -> cloudflare tunnel -> caddy -> glance container.
+The request will now travel from User -> cloudflare edge server -> cloudflare tunnel -> caddy -> glance container.
 
 And with that, you have created your own home server!! 
 
-Feel free to add other docker containers you may want, and update the different configurations on dash.cloudflare.com as well as the Caddyfile., and run `terragrunt run-all apply`.
+Feel free to add other docker containers you may want, and update the different configurations on dash.cloudflare.com as well as the Caddyfile, and run `terragrunt run-all apply`.
 
 There is so so so much more that I can get into, but I hope that this little guide served as a great starting resources for anyone that has a spare laptop and a love for building!
 

@@ -8,12 +8,12 @@ const Button = ({
   }) => {
     return (
       <button
-        className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
+        className={`flex justify-center items-center px-3 py-2 border font-montserrat text-sm leading-none 
         ${
           backgroundColor
             ? `${backgroundColor} ${textColor} ${borderColor}`
             : "bg-coral-red text-white font-semibold font-palanquin border-coral-red drop-shadow-md"
-        } rounded-full ${fullWidth && "w-full"}`}
+        } rounded-full ${fullWidth && "w-full"} sm:px-7 sm:py-4 sm:text-lg`}
       >
         {label}
   

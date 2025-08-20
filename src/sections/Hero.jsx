@@ -1,79 +1,56 @@
-import React from 'react'
-import { face, icon } from "../assets/images";
+import React from 'react';
+import { face } from "../assets/images";
 import { TechStack } from '../components';
-
 
 const Hero = () => {
   return (
-    <main className='flex flex-col max-container'>
+    <main className='max-container px-4 sm:px-8 py-16'>
       <section
         id='home'
-        className='relative sm:flex max-sm:flex-col justify-between items-center object-scale-down '
+        className='flex flex-col lg:flex-row justify-center items-center lg:items-start gap-12'
       >
-        <div className='sm:flex-col max-sm:text-lg fading-down-slow items-center justify-center'>
+        <div className='flex flex-col items-center text-center lg:w-1/3 flex-shrink-0'>
           <img
-            src={ face }
-            alt='picture'
+            src={face}
+            alt='Sean Choo profile picture' 
             width={250}
             height={250}
-            className='rounded-full mx-auto'
+            className='rounded-full shadow-lg'
           />
-          <div>
-            <p className='relative max-sm:text-2xl font-semibold sm:text-2xl text-center font-montserrat text-dark-blue py-4 fading-down-slow'>
-              Sean (Ze Xian) Choo 
+          <div className='mt-6'>
+            <p className='text-3xl font-semibold font-montserrat text-dark-blue'>
+              Sean (Ze Xian) Choo
             </p>
-            <p className='relative text-2xl whitespace-nowrap text-center font-montserrat text-dark-blue fading-down-slow'>
-              Software Engineer | <br/> DevOps Engineer | <br/> SRE 
+            <p className='text-xl font-medium mt-2 font-montserrat text-slate-600 whitespace-nowrap'>
+              Software Engineer |<br /> DevOps Engineer |<br /> SRE
             </p>
           </div>
         </div>
 
-        <div className='flex flex-col sm:ml-36 space-y-4 fading-down-slow'>
-          <div className='py-2 sm:max-w-full'>
-            <p className='sm:text-[50px] max-sm:text-md font-montserrat text-dark-blue' >
-              Hey! 👋 My name is <span className='text-coral-red font-semibold'>Sean (Ze Xian) Choo</span>. 
+        <div className='flex flex-col lg:w-2/3 mt-8 lg:mt-0'>
+          <div className=''>
+            <p className='text-3xl md:text-5xl font-montserrat text-dark-blue'>
+              Hey! 👋 My name is <span className='text-coral-red font-semibold'>Sean (Ze Xian) Choo</span>.
             </p>
           </div>
-          <div className='justify-left'>
-            <ul className='space-y-4 sm:text-lg font-light max-sm:text-sm font-Palanquin text-dark-blue py-2' >
-                <p className='' >
-                  📖 <span className='font-semibold'>CS Senior</span> @ UIUC
-                </p>
-
-                <p className='' >
-                  🗄️ <span className='font-semibold'>Current SRE Intern</span> @ Blizzard Entertainment
-                </p>
-
-                <p className='' >
-                  💻 Incoming <span className='font-semibold'>SWE Intern</span> @ ByteDance
-                </p>
-
-                <p className='' >
-                  💬 <span className='font-semibold'>Conversational Search Engineer</span> @ PeopleWeave 
-                </p>
-
-                <p className='' >
-                  📈 <span className='font-semibold'>Trading Algorithms Engineer</span> @ Illini Blockchain
-                </p>
-
-                <p className='' >
-                  🏘️ <span className='font-semibold'>Sigma Phi Delta</span>
-                </p>
-
-                <p className='' >
-                  ... and <span className='text-italics'> really </span> loves ☕!
-                </p>
+          <div className='mt-6'>
+            <ul className='space-y-3 text-base md:text-lg font-light font-palanquin text-dark-blue'>
+              <li>📖 <span className='font-semibold'>CS Senior</span> @ UIUC</li>
+              <li>🗄️ <span className='font-semibold'>Current SRE Intern</span> @ Blizzard Entertainment</li>
+              <li>💻 <span className='font-semibold'>Incoming SWE Intern</span> @ ByteDance</li>
+              <li>💬 <span className='font-semibold'>Conversational Search Engineer</span> @ PeopleWeave</li>
+              <li>📈 <span className='font-semibold'>Trading Algorithms Engineer</span> @ Illini Blockchain</li>
+              <li>🏘️ <span className='font-semibold'>Sigma Phi Delta</span></li>
+              <li>... and <i>really</i> loves ☕!</li>
             </ul>
           </div>
-          <div className='max-sm:scale-75'>
+          <div className='mt-8'>
             <TechStack />
           </div>
         </div>
-
       </section>
     </main>
-    
   );
 }
 
-export default Hero
+export default Hero;

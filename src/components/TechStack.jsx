@@ -115,24 +115,37 @@ const iconUrls = [
 
 const TechStack = () => {
   return (
-    <div className="border-4 border-[#fda4af]">
-      <p className="px-2 tech-text">My Tech Stack:</p>
+    // Use responsive padding, rounded corners, and a more subtle border
+    <div className="rounded-lg border border-rose-200 bg-rose-50/50 p-4 sm:p-6">
+      <p className="mb-4 text-lg font-semibold text-slate-700 sm:text-xl">
+        My Tech Stack:
+      </p>
 
-      <div className="px-3 py-2">
-        <div className="flex flex-wrap justify-center gap-3">
-          {iconUrls.map((icon, index) => (
-            <a
-              key={index}
-              href={icon.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center rounded-md border-2 border-transparent p-2 hover:border-slate-800 hover:bg-[#fda4af] max-sm:w-10 max-sm:scale-75"
+      {/* This grid will wrap items naturally. The gap is also responsive. */}
+      <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
+        {iconUrls.map((icon, index) => (
+          <a
+            key={index}
+            href={icon.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            // Each item has a defined size and transition for a smooth hover effect
+            className="group flex w-20 flex-col items-center rounded-lg p-2 transition-all duration-200 hover:bg-rose-100 hover:shadow-md"
+          >
+            <img
+              // Responsive icon size with a hover effect
+              className="h-8 w-8 object-contain transition-transform duration-200 group-hover:scale-110 sm:h-10 sm:w-10"
+              src={icon.url}
+              alt={icon.desc}
+            />
+            <span
+              // Responsive and centered text for the description
+              className="mt-2 text-center text-xs text-slate-600 sm:text-sm"
             >
-              <img className="icon-size" src={icon.url} alt={icon.desc} />
-              <span className="desc-text mt-2">{icon.desc}</span>
-            </a>
-          ))}
-        </div>
+              {icon.desc}
+            </span>
+          </a>
+        ))}
       </div>
     </div>
   );

@@ -111,8 +111,8 @@
     @apply font-palanquin text-slate-gray sm:text-2xl max-sm:text-sm leading-loose font-light;
   }
 
-  .heading-text{
-    @apply font-montserrat text-slate-gray max-sm:text-lg sm:text-4xl leading-7;
+  .heading-text {
+  @apply font-montserrat text-slate-gray text-2xl sm:text-4xl leading-snug;
   }
 
   .tech-text {

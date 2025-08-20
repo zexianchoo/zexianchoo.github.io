@@ -15,8 +15,8 @@ return (
         </h1>
 
     <div className='flex min-w-full flex-col justify-between space-y-10 px-8'>
-        <div className='flex sm:flex-row max-sm:flex-col items-center space-x-10'>
-        <div className='max-w-[20%] flex object-scale-down items-center sm:justify-start max-sm:justify-center max-sm:py-2'>
+        <div className='flex sm:flex-row items-center space-x-10'>
+        <div className='flex max-w-[20%] first-line:object-scale-down items-center sm:justify-start max-sm:justify-center  max-sm:py-2'>
             <img 
                 src = { img_class } 
                 className='rounded-lg drop-shadow-lg' >

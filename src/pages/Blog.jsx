@@ -21,7 +21,7 @@ const Blog = () => {
     fetchMarkdown();
   }, []);
   return (
-    <main className='sm:relative flex flex-col w-full h-screen justify-between bg-cover.bg-clip-custom-2 bg-wavebg'>
+    <main className='sm:relative flex flex-col w-full h-screen justify-between'>
       <Nav />
       <div className="flex-grow mx-auto container p-8">
           <div className="prose lg:prose-xl mx-auto">
@@ -40,7 +40,7 @@ const Blog = () => {
             <div className="flex flex-wrap items-center text-gray-600 text-sm mb-4">
                 <span className="mr-4 flex items-center">
                 <svg className="w-4 h-4 mr-1 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                <time dateTime="2025-07-23">July 23, 2025</time>
+                <time dateTime="2025-08-19">Aug 19, 2025</time>
                 </span>
                 <span className="mr-4">|</span>
                 <span className="flex items-center">
@@ -55,14 +55,19 @@ const Blog = () => {
                 <a href="/tags/devops" className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full hover:bg-blue-200">#devops</a>
             </div>
             </div>
+            <div className=''>
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]} 
                 rehypePlugins={[
                   [rehypePrismPlus, { defaultLanguage: 'markup', ignoreMissing: true }]
                 ]}
+                components={{
+                  li: ({ node, ...props }) => <li style={{ wordWrap: 'break-word' }} {...props} />,
+                }}
               >
                 {markdownContent}
               </ReactMarkdown>
+            </div>
           </div>
       </div>
 

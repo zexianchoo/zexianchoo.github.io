@@ -208,4 +208,3 @@ And with that, you have created your own home server!!
 Feel free to add other docker containers you may want, and update the different configurations on dash.cloudflare.com as well as the Caddyfile, and run `terragrunt run-all apply`.
 
 There is so so so much more that I can get into, but I hope that this little guide served as a great starting resources for anyone that has a spare laptop and a love for building!
-

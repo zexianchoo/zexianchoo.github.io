@@ -42,9 +42,9 @@ Check out some homelab setups on reddit for some inspiration:
 - https://www.reddit.com/r/homelab/comments/1kw4kp0/made_a_diagram_of_my_homelab_what_do_you_guys
 
 
-This is my current homelab setup (work in progress):
+<!-- This is my current homelab setup (work in progress):
 
-![Homelab Diagram](articles/homelab.png)
+![Homelab Diagram](articles/homelab.png) -->
 
 ---
 
